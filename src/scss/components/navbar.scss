@@ -1,0 +1,34 @@
+.app-navbar{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    li{
+      margin-left: 1rem;
+      margin-right: 1rem;
+      .app-navbar-link{
+        color: #232323;
+        font-weight: 600;
+      }
+    }
+  }
+  .app-navbar-right{
+    display: flex;
+    justify-content: space-between;
+    .app-navbar-link{
+      margin-right: 2rem;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      color: #277EFF;
+      font-weight: 700;
+    }
+  }
+}

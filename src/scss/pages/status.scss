@@ -1,0 +1,96 @@
+.app-status-container{
+  .app-status{
+    border-radius: 1.5rem;
+    border: $app-primary-grey solid 1px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    b{
+      font-weight: 500;
+    }
+    .app-status-header{
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      .app-status-header-dot{
+        width: 0.875rem;
+        height: 0.875rem;
+        border-radius: 50%;
+        background: $app-primary-green;
+        margin-right: 0.375rem;
+      }
+      .app-status-header-text{
+        font-size: 1.0625rem;
+        font-weight: 600;
+        margin-right: 1rem;
+      }
+    }
+    .app-status-body{
+      color: $app-primary-grey2;
+      font-weight: 300;
+      font-size: 0.9375rem;
+      .app-status-body-container{
+        margin-bottom: 3.75rem;
+        .app-status-body-header-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .app-status-img{
+          margin-top: 0.75rem;
+          margin-bottom: 0.75rem;
+          width: 100%;
+          svg{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .app-status-body-footer-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+    .app-status-footer{
+      .app-status-footer-title-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        .app-status-footer-title{
+          color: $app-primary-black;
+          margin-right: 1rem;
+          font-size: 1.0625rem;
+          margin-bottom: 0;
+        }
+      }
+      .app-status-footer-section{
+        display: flex;
+        flex-direction: column;
+        h5{
+          font-size: 0.9375rem;
+          font-weight: 600;
+          color: $app-primary-black;
+          margin-bottom: 0.125rem;
+        }
+        p{
+          font-size: 0.9375rem;
+          font-weight: 400;
+          color: $app-primary-black;
+          margin-left: 0.5rem;
+          margin-bottom: 0;
+        }
+      }
+      .app-status-line{
+        margin-bottom: 0.875rem;
+        margin-top: 0.875rem;
+      }
+    }
+  }
+}
+.app-status-secondary{
+  color: $app-primary-blue;
+  font-weight: 400;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
