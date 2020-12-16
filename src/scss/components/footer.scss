@@ -1,0 +1,50 @@
+.app-footer-container{
+  background: $app-primary-blue;
+  padding: 1.125rem 0;
+  .app-footer{
+    color: $app-primary-white;
+    padding-left: 10%;
+    padding-right: 10%;
+    .app-footer-logo{
+      margin-bottom: 2rem;
+    }
+    span{
+      font-weight: 600;
+      font-size: 1.0625rem;
+    }
+    ul{
+      padding: 0;
+      li{
+        list-style: none;
+        margin-top: 0.5rem;
+        font-weight: 300;
+        a{
+          color: $app-primary-white;
+          font-weight: 300;
+        }
+      }
+    }
+    hr{
+      background: $app-primary-white;
+    }
+    .app-footer-footer{
+      display: flex;
+      justify-content: space-between;
+      span, a{
+        font-weight: 400;
+        margin-right: 2rem;
+        color: $app-primary-white;
+      }
+      .app-footer-icons{
+        a{
+          margin-left: 1rem;
+          margin-right: 0;
+          transition: opacity 0.2s ease;
+          &:hover{
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}

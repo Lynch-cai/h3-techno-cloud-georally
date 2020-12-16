@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Pricing from './pages/Pricing'
@@ -25,6 +26,7 @@ function App() {
         <Route component={Error} />
       </Switch>
       </div>
+      <Footer />
     </React.Fragment>
   );
 }
