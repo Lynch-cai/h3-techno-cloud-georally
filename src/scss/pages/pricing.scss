@@ -1,0 +1,77 @@
+.app-pricing-container{
+  .app-pricing{
+    .app-pricing-cards{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 4rem;
+      .app-pricing-card{
+        padding: 3rem 7rem;
+        border-radius: 1.5rem;
+        border: $app-primary-grey 0.0625rem solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .app-pricing-card-top{
+          .app-pricing-card-header{
+            .app-pricing-card-title{
+              span{
+                font-weight: 600;
+                color: $app-primary-black;
+                font-size: 1.0625rem;
+                margin-right: 1.75rem;
+              }
+              svg{
+                margin-bottom: 0.375rem;
+              }
+            }
+            .app-pricing-card-price{
+              color: $app-primary-grey2;
+              font-size: 0.875rem;
+              margin-bottom: 2rem;
+              font-weight: 300;
+            }
+          }
+  
+          .app-pricing-card-body{
+            h5{
+              font-size: 1.0625rem;
+              font-weight: 500;
+              margin-bottom: 1rem;
+            }
+            ul{
+              padding-left: 0;
+              li{
+                list-style: none;
+                margin-bottom: 1rem;
+                font-size: 1.0625rem;
+                font-weight: 500;
+                svg{
+                  margin-right: 0.75rem;
+                }
+              }
+            }
+          }
+        }
+        .app-pricing-card-bottom{
+          .app-pricing-card-footer-container{
+            hr{
+              background: $app-primary-grey;
+              margin-bottom: 2.25rem;
+              margin-top: 2.25rem;
+            }
+            .app-pricing-card-footer{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              span{
+                color: $app-primary-grey2;
+                margin-top: 0.375rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

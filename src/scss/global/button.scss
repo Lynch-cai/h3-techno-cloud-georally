@@ -6,10 +6,26 @@
   padding: 0.875rem 1.5625rem;
   border: $app-primary-white solid 0.0625rem;
   transition: color ease 0.2s, background ease 0.2s, border ease 0.2s;
+  text-decoration: none;
   &:hover{
     background: $app-primary-white;
     color: $app-primary-blue;
     border: $app-primary-blue solid 0.0625rem;
-    text-decoration: none;
+  }
+}
+
+.app-button-secondary{
+  font-weight: 700;
+  border-radius: 0.5rem;
+  color: $app-primary-blue;
+  background: $app-primary-white;
+  padding: 0.875rem 1.5625rem;
+  border: $app-primary-blue solid 0.0625rem;
+  text-decoration: none;
+  transition: color ease 0.2s, background ease 0.2s, border ease 0.2s;
+  &:hover{
+    background: $app-primary-blue;
+    color: $app-primary-white;
+    border: $app-primary-white solid 0.0625rem;
   }
 }

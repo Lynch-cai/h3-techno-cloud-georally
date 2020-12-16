@@ -10,16 +10,16 @@ const Navbar = ()=>{
       </NavLink>
       <ul>
         <li>
-          <NavLink to="/" className="app-navbar-link">Product</NavLink>
+          <NavLink activeClassName="active" exact to="/" className="app-navbar-link">Product</NavLink>
         </li>
         <li>
-          <NavLink to="/pricing" className="app-navbar-link">Pricing</NavLink>
+          <NavLink activeClassName="active" to="/pricing" className="app-navbar-link">Pricing</NavLink>
         </li>
         <li>
-          <NavLink to="/docs" className="app-navbar-link">Docs</NavLink>
+          <NavLink activeClassName="active" to="/docs" className="app-navbar-link">Docs</NavLink>
         </li>
         <li>
-          <NavLink to="/status" className="app-navbar-link">Status</NavLink>
+          <NavLink activeClassName="active" to="/status" className="app-navbar-link">Status</NavLink>
         </li>
       </ul>
       <div className="app-navbar-right">

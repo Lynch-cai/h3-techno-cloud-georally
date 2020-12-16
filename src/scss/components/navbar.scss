@@ -14,8 +14,16 @@
       margin-left: 1rem;
       margin-right: 1rem;
       .app-navbar-link{
-        color: #232323;
+        color: $app-primary-black;
         font-weight: 600;
+        text-decoration: none;
+        transition: 0.2s ease color;
+        &.active{
+          color: $app-primary-blue;
+        }
+        &:hover{
+          color: $app-primary-blue;
+        }
       }
     }
   }
@@ -27,8 +35,13 @@
       display: flex;
       justify-content: left;
       align-items: center;
-      color: #277EFF;
+      color: $app-primary-blue;
       font-weight: 700;
+      text-decoration: none;
+      transition: 0.2s ease color;
+      &:hover{
+        color: $app-primary-black;
+      }
     }
   }
 }
