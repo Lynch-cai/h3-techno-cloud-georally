@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import individual from '../imgs/home-individual.png'
+import example from '../imgs/home-example.png'
 import { ReactComponent as Car } from "../svg/home-car.svg"
 import { ReactComponent as Team } from "../svg/home-team.svg"
 import { ReactComponent as Shield } from "../svg/home-shield.svg"
@@ -91,7 +92,7 @@ const Home = ()=> {
           <h3 className="app-home-example-title mb-3">GeoRally Map</h3>
           <span className="app-home-example-desc mb-4">A small example of what GeoRally API can offer you</span>
           <div className="app-home-example-demo">
-
+            <img src={example} />
           </div>
         </div>
       </div>
