@@ -18,7 +18,7 @@ const Navbar = ()=>{
             <ul>
               <li><Link to="/pricing">Pricing</Link></li>
               <li><Link to="/status">Status</Link></li>
-              <li><Link to="/demo">Get a demo</Link></li>
+              <li><a href="/demo.html">Get a demo</a></li>
             </ul>
           </div>
           <div>

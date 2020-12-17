@@ -12,7 +12,6 @@ import Forgot from './pages/Forgot'
 import Error from './pages/Error'
 import Policy from './pages/Policy'
 import Legal from './pages/Legal'
-import Demo from './pages/Demo'
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -32,7 +31,6 @@ function App() {
         <Route path="/forgot" component={Forgot} />
         <Route path="/policy" component={Policy} />
         <Route path="/legal" component={Legal} />
-        <Route path="/demo" component={Demo} />
         <Route component={Error} />
       </Switch>
       </div>

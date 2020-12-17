@@ -13,12 +13,14 @@ const PricingTable = ()=> {
         <div className="col-sm-4 d-flex flex-column justify-content-start align-items-center">
           <PricingFree />
           <b className="mb-3 mt-3">Free</b>
-          <Link to="/demo" className="app-button-secondary">Start for free</Link>
+          <a href="/demo.html" className="app-button-secondary">Start for free</a>
+
         </div>
         <div className="col-sm-4 d-flex flex-column justify-content-start align-items-center">
           <PricingPro />
           <b className="mb-3 mt-3">Professional</b>
-          <Link to="/demo" className="app-button-primary">Get a demo</Link>
+          <a href="/demo.html" className="app-button-primary">Get a demo</a>
+
         </div>
       </div>
 

@@ -53,6 +53,35 @@
       }
     }
 
+    .app-home-example-demo{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        transition: 0.2s ease opacity;
+      }
+      a{
+        opacity: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        transition: 0.2s ease opacity;
+      }
+
+
+      &:hover{
+        img{
+          opacity: 0.4;
+        }
+        a{
+          opacity: 1;
+        }
+      }
+    }
+
 
 
   }

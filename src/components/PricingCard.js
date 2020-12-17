@@ -32,7 +32,7 @@ const PricingCard = ()=>{
           <div className="app-pricing-card-footer-container">
             <hr></hr>
             <div className="app-pricing-card-footer">
-              <Link to="/demo" className="app-button-secondary">Start for free</Link>
+              <a href="/demo.html" className="app-button-secondary">Start for free</a>
               <span>‎</span>
             </div>
           </div>
@@ -71,7 +71,8 @@ const PricingCard = ()=>{
           <div className="app-pricing-card-footer-container">
             <hr></hr>
             <div className="app-pricing-card-footer">
-              <Link to="/demo" className="app-button-primary">Get a demo</Link>
+              <a href="/demo.html" className="app-button-primary">Get a demo</a>
+
 
               <span>Try for free</span>
             </div>
