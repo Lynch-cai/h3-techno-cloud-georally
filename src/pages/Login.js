@@ -12,7 +12,7 @@ const Login = ()=> {
       </div>
 
       <div className="login-page-right">
-        <h3>Sign in</h3>
+        <h2>Sign in</h2>
         <p className="grey-text">Not signed up ? <Link to="/Register" className="">Register</Link></p>
         <p className="login-input-text">Email</p>
         <input></input>
@@ -20,7 +20,7 @@ const Login = ()=> {
         <input></input>
         <div className="connection">
           <button className="app-button-primary">Sign in</button>
-          <p><Link to="/Register" className="">Forgot password ?</Link></p>
+          <p><Link to="/Forgot" className="">Forgot password ?</Link></p>
         </div>
       </div>
       
