@@ -45,7 +45,7 @@ const Navbar = ()=>{
           </div>
           <div className="app-footer-icons">
             <a target="_blank" href="https://linkedin.com/in/georally-1454871"><Linkedin /></a>
-            <a target="_blank" href="https://github.com/lynchcai"><Github /></a>
+            <a target="_blank" href="https://github.com/Lynch-cai/h3-techno-cloud-georally"><Github /></a>
             <a target="_blank" href="https://twitter.com/GeoRally_api"><Twitter /></a>
           </div>
         </div>
