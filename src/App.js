@@ -8,9 +8,11 @@ import Docs from './pages/Docs'
 import Status from './pages/Status'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Forgot from './pages/Forgot'
 import Error from './pages/Error'
 import Policy from './pages/Policy'
 import Legal from './pages/Legal'
+import Demo from './pages/Demo'
 
 
 function App() {
@@ -25,8 +27,10 @@ function App() {
         <Route path="/status" component={Status} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/forgot" component={Forgot} />
         <Route path="/policy" component={Policy} />
         <Route path="/legal" component={Legal} />
+        <Route path="/demo" component={Demo} />
         <Route component={Error} />
       </Switch>
       </div>

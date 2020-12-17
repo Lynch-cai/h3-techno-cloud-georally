@@ -24,7 +24,7 @@ const Navbar = ()=>{
       </ul>
       <div className="app-navbar-right">
         <NavLink to="/login" className="app-navbar-link">Log In</NavLink>
-        <NavLink to="/login" className="app-button-primary">Get a demo</NavLink>
+        <NavLink to="/demo" className="app-button-primary">Get a demo</NavLink>
       </div>
     </nav>
   )

@@ -1,29 +1,32 @@
-.container{
-    display: flex;
-    
-    .login-page-left{
-        //jariv pas a changer la hauteur de ce foutu svg aled
+.app-login-register-container{
+    margin-bottom: 12rem;
+    margin-top: 8rem;
+    .app-login-page-left{
+        opacity: 0.55;
     }
-
-    .login-page-right{
+    .app-login-page-right{
+        width: 20rem;
         input{
             margin-bottom: 1rem;
+            height: 2.5rem;
+            width: 20rem;
+            box-shadow: none;
+            border: 0.0625rem $app-primary-grey solid;
             border-radius: 0.5rem;
-            height: 2rem;
+            text-decoration: none;
+            background-color: $app-primary-white;
         }
-        .login-input-text{
+        .app-login-input-text{
             margin-bottom: 0.5rem;
         }
         .grey-text{
             color: $app-primary-grey2;
             margin-bottom: 2rem;
         }
-        .connection{
+        .app-login-connection{
             display: flex;
             justify-content: space-between;
             align-items: baseline;
         }
-
     }
-
 }

@@ -3,7 +3,7 @@ import { ReactComponent as Car } from '../svg/home-car.svg';
 import { Link } from 'react-router-dom'
 
 
-const Register = ()=> {
+const Login = ()=> {
   return (
     <div className="app-login-register-container row d-flex justify-content-between align-items-center">
 
@@ -13,15 +13,11 @@ const Register = ()=> {
 
       <div className="col-md-6">
         <div className="app-login-page-right">
-          <h2 className="mb-4">Sign up</h2>
+          <h2 className="mb-4">Reset password</h2>
           <p className="app-login-input-text">Email</p>
           <input></input>
-          <p className="app-login-input-text">Password</p>
-          <input></input>
-          <p className="app-login-input-text">Confirm Password</p>
-          <input></input>
           <div className="app-login-connection">
-            <button className="app-button-primary">Sign up</button>
+            <button className="app-button-primary">Reset Password</button>
           </div>
         </div>
       </div>
@@ -29,4 +25,4 @@ const Register = ()=> {
   )
 }
 
-export default Register
+export default Login

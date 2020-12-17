@@ -1,32 +1,31 @@
 import React from 'react'
-import { ReactComponent as LoginCar } from '../svg/car_2.svg';
+import { ReactComponent as Car } from '../svg/home-car.svg';
 import { Link } from 'react-router-dom'
 
 
 const Login = ()=> {
   return (
-    <div className="container">
+    <div className="app-login-register-container row d-flex justify-content-between align-items-center">
 
-      <div className="login-page-left">
-        <LoginCar />
+      <div className="app-login-page-left col-md-5">
+        <Car className="d-flex align-items-center" />
       </div>
 
-      <div className="login-page-right">
-        <h2>Sign in</h2>
-        <p className="grey-text">Not signed up ? <Link to="/Register" className="">Register</Link></p>
-        <p className="login-input-text">Email</p>
-        <input></input>
-        <p className="login-input-text">Password</p>
-        <input></input>
-        <div className="connection">
-          <button className="app-button-primary">Sign in</button>
-          <p><Link to="/Forgot" className="">Forgot password ?</Link></p>
+      <div className="col-md-6">
+        <div className="app-login-page-right">
+          <h2>Sign in</h2>
+          <p className="grey-text">Not signed up ? <Link to="/register" className="">Register</Link></p>
+          <p className="app-login-input-text">Email</p>
+          <input></input>
+          <p className="app-login-input-text">Password</p>
+          <input></input>
+          <div className="app-login-connection">
+            <button className="app-button-primary">Sign in</button>
+            <p><Link to="/forgot" className="">Forgot password ?</Link></p>
+          </div>
         </div>
       </div>
-      
     </div>
-      
-    
   )
 }
 

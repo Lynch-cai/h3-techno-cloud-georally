@@ -10,6 +10,7 @@ import { ReactComponent as Wrc } from "../svg/home-partner-wrc.svg"
 import { ReactComponent as Ford } from "../svg/home-partner-ford.svg"
 import { ReactComponent as Mini } from "../svg/home-partner-mini.svg"
 import { ReactComponent as ArrowDown } from "../svg/home-arrow-down.svg"
+import { Link } from 'react-router-dom'
 
 const Home = ()=> {
   return (
@@ -21,7 +22,7 @@ const Home = ()=> {
             <p className="mb-3">Boost your performance with accurate data about rally.</p>
             <p className="mb-3">With <b>Geo</b>Rally, get all useful data about races to improve your performances.</p>
             <p className="mb-5">Join a community of <b>250+</b> pilots and teams that use <b>Geo</b>Rally APIs</p>
-            <button className="app-button-primary">Start with GeoRally</button>
+            <Link to="/demo" className="app-button-primary">Start with GeoRall</Link>
           </div>
           <div className="col-md-6">
             <Car className="app-home-illustration-car" />
@@ -45,7 +46,7 @@ const Home = ()=> {
             <p>Get a <b>professional</b> tools for affordable prices
             <br/>High performance and security do not need a lot of fund anymore.
             <br/><br/>Access now to infinite data and statistics for your future trials.</p>
-            <button className="app-button-primary mt-2">Get a demo</button>
+            <Link to="/demo" className="app-button-primary mt-2">Get a demo</Link>
           </div>
           <div className="col-md-5">
             <img src={individual}/>
@@ -63,7 +64,7 @@ const Home = ()=> {
             <p>Optimize your trials with <b>accurates</b> data and statistics.
             <br/>Work with your team with the best statistics about future trials and study statistics of past races
             </p>
-            <button className="app-button-secondary mt-2">Try for free</button>
+            <Link to="/demo" className="app-button-secondary mt-2">Try for free</Link>
           </div>
         </div>
 
@@ -77,7 +78,7 @@ const Home = ()=> {
             <br/><br/>With GeoRally prepare your races and stay <b>safe</b> everytime.
             <br/>Get the best data and don’t take any risks to <b>win</b>.
             </p>
-            <button className="app-button-primary mt-2">Get a demo</button>
+            <Link to="/demo" className="app-button-primary mt-2">Get a demo</Link>
           </div>
           <div className="col-md-5 d-flex justify-content-center align-items-center">
             <Shield className="app-home-shield" />
