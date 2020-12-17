@@ -14,9 +14,9 @@ import { ReactComponent as ArrowDown } from "../svg/home-arrow-down.svg"
 const Home = ()=> {
   return (
     <div className="app-home-container container">
-      <div className="app-home">
-        <div className="row">
-          <div className="col-md-6">
+      <div className="app-home mt-5">
+        <div className="row mb-5">
+          <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
             <h1 className="mb-4">The best data for rally</h1>
             <p className="mb-3">Boost your performance with accurate data about rally.</p>
             <p className="mb-3">With <b>Geo</b>Rally, get all useful data about races to improve your performances.</p>
@@ -36,10 +36,10 @@ const Home = ()=> {
           <Mini className="ml-3 mr-3" />
         </div>
         <div className="d-flex justify-content-center mt-5 mb-5 app-home-arrow-down">
-          <ArrowDown />
+          <ArrowDown className="mb-5" />
         </div>
 
-        <div className="row mb-5 mt-5">
+        <div className="app-home-section row">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-start">
             <h3>GeoRally for individuals</h3>
             <p>Get a <b>professional</b> tools for affordable prices
@@ -54,7 +54,7 @@ const Home = ()=> {
         </div>
 
         
-        <div className="row mb-5 mt-5">
+        <div className="app-home-section row">
           <div className="col-md-5">
             <Team />
           </div>
@@ -68,7 +68,7 @@ const Home = ()=> {
         </div>
 
 
-        <div className="row mt-5">
+        <div className="app-home-section row">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-start">
             <h3>GeoRally improve security during races</h3>
             <p>Rallys have not always had a good reputation because to designate as dangerous.
@@ -79,8 +79,8 @@ const Home = ()=> {
             </p>
             <button className="app-button-primary mt-2">Get a demo</button>
           </div>
-          <div className="col-md-5">
-            <Shield />
+          <div className="col-md-5 d-flex justify-content-center align-items-center">
+            <Shield className="app-home-shield" />
           </div>
         </div>
 
