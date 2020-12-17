@@ -12,7 +12,7 @@
     }
     .app-home-partners{
       svg{
-        opacity: 0.8;
+        opacity: 0.9;
       }
     }
     .app-home-line{
@@ -29,5 +29,31 @@
       margin-bottom: 8rem;
       margin-top: 8rem;
     }
+
+    .app-home-first-section{
+      margin-top: 12rem;
+    }
+
+    .app-home-arrow-down{
+      position: absolute;
+      bottom: 2rem;
+      padding: 0 0.8rem 0.8rem 0.8rem;
+      left: 50%;
+      transform: translate(-50%, 0);
+      svg{
+        width: 2rem;
+        animation: arrow_repetition 2s ease infinite;
+        pointer-events: none;
+
+        @keyframes arrow_repetition{
+          0% {transform: translateY(0)}
+          50% {transform: translateY(35px)}
+          100% {transform: translateY(0px)}
+        }
+      }
+    }
+
+
+
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
-import { ReactComponent as Car } from "../svg/home-car.svg"
+import { Link } from 'react-router-dom'
 import individual from '../imgs/home-individual.png'
+import { ReactComponent as Car } from "../svg/home-car.svg"
 import { ReactComponent as Team } from "../svg/home-team.svg"
 import { ReactComponent as Shield } from "../svg/home-shield.svg"
 import { ReactComponent as Hyundai } from "../svg/home-partner-hyundai.svg"
@@ -10,7 +11,6 @@ import { ReactComponent as Wrc } from "../svg/home-partner-wrc.svg"
 import { ReactComponent as Ford } from "../svg/home-partner-ford.svg"
 import { ReactComponent as Mini } from "../svg/home-partner-mini.svg"
 import { ReactComponent as ArrowDown } from "../svg/home-arrow-down.svg"
-import { Link } from 'react-router-dom'
 
 const Home = ()=> {
   return (
@@ -22,7 +22,7 @@ const Home = ()=> {
             <p className="mb-3">Boost your performance with accurate data about rally.</p>
             <p className="mb-3">With <b>Geo</b>Rally, get all useful data about races to improve your performances.</p>
             <p className="mb-5">Join a community of <b>250+</b> pilots and teams that use <b>Geo</b>Rally APIs</p>
-            <Link to="/demo" className="app-button-primary">Start with GeoRall</Link>
+            <Link to="/demo" className="app-button-primary">Start with GeoRally</Link>
           </div>
           <div className="col-md-6">
             <Car className="app-home-illustration-car" />
@@ -40,7 +40,7 @@ const Home = ()=> {
           <ArrowDown className="mb-5" />
         </div>
 
-        <div className="app-home-section row">
+        <div className="app-home-section app-home-first-section row">
           <div className="col-md-7 d-flex flex-column justify-content-center align-items-start">
             <h3>GeoRally for individuals</h3>
             <p>Get a <b>professional</b> tools for affordable prices

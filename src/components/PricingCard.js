@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { ReactComponent as PricingFree } from '../svg/pricing-free.svg';
 import { ReactComponent as PricingPro } from '../svg/pricing-pro.svg';
 import { ReactComponent as PricingCardValid } from '../svg/pricing-card-valid.svg';
@@ -31,7 +32,7 @@ const PricingCard = ()=>{
           <div className="app-pricing-card-footer-container">
             <hr></hr>
             <div className="app-pricing-card-footer">
-              <button className="app-button-secondary">Start for free</button>
+              <Link to="/demo" className="app-button-secondary">Start for free</Link>
               <span>‎</span>
             </div>
           </div>
@@ -70,7 +71,8 @@ const PricingCard = ()=>{
           <div className="app-pricing-card-footer-container">
             <hr></hr>
             <div className="app-pricing-card-footer">
-              <button className="app-button-primary">Get a demo</button>
+              <Link to="/demo" className="app-button-primary">Get a demo</Link>
+
               <span>Try for free</span>
             </div>
           </div>

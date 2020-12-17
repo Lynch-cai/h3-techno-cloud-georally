@@ -13,11 +13,13 @@ import Error from './pages/Error'
 import Policy from './pages/Policy'
 import Legal from './pages/Legal'
 import Demo from './pages/Demo'
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <React.Fragment>
+      <ScrollToTop />
       <Navbar />
       <div className="container">
       <Switch>

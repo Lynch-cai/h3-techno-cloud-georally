@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { ReactComponent as PricingFree } from '../svg/pricing-free.svg';
 import { ReactComponent as PricingPro } from '../svg/pricing-pro.svg';
 import { ReactComponent as PricingInfo } from '../svg/pricing-info.svg';
@@ -12,12 +13,12 @@ const PricingTable = ()=> {
         <div className="col-sm-4 d-flex flex-column justify-content-start align-items-center">
           <PricingFree />
           <b className="mb-3 mt-3">Free</b>
-          <button className="app-button-secondary">Start for free</button>
+          <Link to="/demo" className="app-button-secondary">Start for free</Link>
         </div>
         <div className="col-sm-4 d-flex flex-column justify-content-start align-items-center">
           <PricingPro />
           <b className="mb-3 mt-3">Professional</b>
-          <button className="app-button-primary">Get a demo</button>
+          <Link to="/demo" className="app-button-primary">Get a demo</Link>
         </div>
       </div>
 

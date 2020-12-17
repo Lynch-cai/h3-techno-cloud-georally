@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { ReactComponent as LogoWhite } from '../svg/logo-white.svg';
 import { ReactComponent as Linkedin } from '../svg/linkedin.svg';
 import { ReactComponent as Github } from '../svg/github.svg';
@@ -9,16 +9,16 @@ const Navbar = ()=>{
   return (
     <footer className="app-footer-container">
       <div className="app-footer container">
-        <NavLink to="/">
+        <Link to="/">
           <LogoWhite className="app-footer-logo" />
-        </NavLink>
+        </Link>
         <div className="d-flex justify-content-between">
           <div>
             <span>Products</span>
             <ul>
-              <li><NavLink to="/pricing">Pricing</NavLink></li>
-              <li><NavLink to="/status">Status</NavLink></li>
-              <li><NavLink to="/demo">Get a demo</NavLink></li>
+              <li><Link to="/pricing">Pricing</Link></li>
+              <li><Link to="/status">Status</Link></li>
+              <li><Link to="/demo">Get a demo</Link></li>
             </ul>
           </div>
           <div>
@@ -32,7 +32,7 @@ const Navbar = ()=>{
             <span>Help</span>
             <ul>
               <li><a target="_blank" href="mailto:georally@gmail.com">Contact us</a></li>
-              <li><NavLink to="/docs">Documentation</NavLink></li>
+              <li><Link to="/docs">Documentation</Link></li>
             </ul>
           </div>
         </div>
@@ -40,8 +40,8 @@ const Navbar = ()=>{
         <div className="app-footer-footer">
           <div className="">
             <span>GeoRally ©</span>
-            <NavLink to="/policy">Privacy policy</NavLink>
-            <NavLink to="/legal">Terms of service</NavLink>
+            <Link to="/policy">Privacy policy</Link>
+            <Link to="/legal">Terms of service</Link>
           </div>
           <div className="app-footer-icons">
             <a target="_blank" href="https://linkedin.com/in/georally-1454871"><Linkedin /></a>
