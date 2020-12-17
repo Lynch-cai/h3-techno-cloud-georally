@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Documentation = ()=> {
+const Docs = ()=> {
   return (
     <div className="app-docs-container">
       <h1 className="app-title"><b>Geo</b>rally Documentation</h1>
@@ -14,4 +14,4 @@ const Documentation = ()=> {
   )
 }
 
-export default Documentation
+export default Docs

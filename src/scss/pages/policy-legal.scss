@@ -1,0 +1,27 @@
+.app-policy-legal-container{
+  .app-policy-legal{
+    border-radius: 1.5rem;
+    border: 0.0625rem solid $app-primary-grey;
+    padding: 4rem;
+    h1{
+      font-weight: 700;
+      font-size: 1.5625rem;
+      margin-bottom: 2.25rem;
+    }
+    h5{
+      font-size: 1.0625rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    p{
+      font-weight: 500;
+      font-size: 1.0625rem;
+    }
+    ul{
+      li{
+        font-weight: 500;
+        font-size: 1.0625rem;
+      }
+    }
+  }
+}

@@ -9,6 +9,8 @@ import Status from './pages/Status'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Error from './pages/Error'
+import Policy from './pages/Policy'
+import Legal from './pages/Legal'
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path="/status" component={Status} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/policy" component={Policy} />
+        <Route path="/legal" component={Legal} />
         <Route component={Error} />
       </Switch>
       </div>

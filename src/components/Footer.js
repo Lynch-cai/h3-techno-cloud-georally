@@ -40,8 +40,8 @@ const Navbar = ()=>{
         <div className="app-footer-footer">
           <div className="">
             <span>GeoRally ©</span>
-            <NavLink to="/login">Privacy policy</NavLink>
-            <NavLink to="/login">Terms of service</NavLink>
+            <NavLink to="/policy">Privacy policy</NavLink>
+            <NavLink to="/legal">Terms of service</NavLink>
           </div>
           <div className="app-footer-icons">
             <a href="https://linkedin.com/in/georally-1454871"><Linkedin /></a>

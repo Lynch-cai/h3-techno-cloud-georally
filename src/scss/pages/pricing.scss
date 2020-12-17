@@ -1,16 +1,52 @@
 .app-pricing-container{
   .app-pricing{
+    .app-pricing-info-container{
+      position: relative;
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      .app-pricing-info{
+        opacity: 0;
+        width: 14rem;
+        position: absolute;
+        background: #214C8C;
+        left: 1.5rem;
+        color: $app-primary-white;
+        font-weight: 400;
+        font-size: 0.875rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: 0.25rem;
+        transition: opacity 0.2s;
+        cursor: initial;
+        &:hover{
+          cursor: default !important;
+          opacity: 0 !important;
+        }
+      }
+      &:hover{
+        .app-pricing-info{
+          opacity: 1;
+        }
+      }
+    }
+
+
     .app-pricing-cards{
       display: flex;
       justify-content: space-around;
-      margin-bottom: 4rem;
+      margin-bottom: 6rem;
       .app-pricing-card{
+        width: 32rem;
         padding: 3rem 7rem;
         border-radius: 1.5rem;
         border: $app-primary-grey 0.0625rem solid;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 2rem;
         .app-pricing-card-top{
           .app-pricing-card-header{
             .app-pricing-card-title{
@@ -21,7 +57,7 @@
                 margin-right: 1.75rem;
               }
               svg{
-                margin-bottom: 0.375rem;
+                margin-bottom: 6px;
               }
             }
             .app-pricing-card-price{
@@ -41,6 +77,7 @@
             ul{
               padding-left: 0;
               li{
+                display: flex;
                 list-style: none;
                 margin-bottom: 1rem;
                 font-size: 1.0625rem;
@@ -73,5 +110,28 @@
         }
       }
     }
+
+    .app-pricing-table-container{
+      margin-bottom: 10rem;
+      .app-pricing-row{
+        padding: 1.25rem 0;
+        .app-pricing-table-desc{
+          color: $app-primary-grey2;
+          font-style: 1.0625rem;
+          font-weight: 500;
+        }
+        .app-pricing-table-line{
+          width: 3.375rem;
+          height: 2px;
+          background: $app-primary-grey2;
+        }
+      }
+      .app-pricing-row:nth-child(2n+1){
+        background: #F0F0F0;
+      }
+    }
+
+
+
   }
 }

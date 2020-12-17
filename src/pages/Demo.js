@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Documentation = ()=> {
+const Demo = ()=> {
   return (
     <div className="app-demo-container">
       demo
@@ -8,4 +8,4 @@ const Documentation = ()=> {
   )
 }
 
-export default Documentation
+export default Demo

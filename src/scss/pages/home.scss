@@ -1,0 +1,28 @@
+.app-home-container{
+  .app-home{
+    h1{
+      font-weight: 700;
+      font-size: 1.875rem;
+    }
+    .app-home-illustration-car{
+      opacity: 0.55;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .app-home-partners{
+      svg{
+        opacity: 0.8;
+      }
+    }
+    .app-home-line{
+      height: 0.0625rem;
+      background: $app-primary-grey;
+      margin-top: 8rem;
+      margin-bottom: 8rem;
+    }
+    .app-home-shield{
+      width: 8rem;
+      height: auto;
+    }
+  }
+}
