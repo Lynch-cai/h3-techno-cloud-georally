@@ -32,7 +32,7 @@ const Navbar = ()=>{
             <span>Help</span>
             <ul>
               <li><a target="_blank" href="mailto:georally@gmail.com">Contact us</a></li>
-              <li><Link to="/docs">Documentation</Link></li>
+              <li><a href="https://georally-doc.netlify.app/">Documentation</a></li>
             </ul>
           </div>
         </div>
