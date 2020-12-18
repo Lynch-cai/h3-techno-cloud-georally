@@ -16,7 +16,7 @@ const Navbar = ()=>{
           <NavLink activeClassName="active" to="/pricing" className="app-navbar-link">Pricing</NavLink>
         </li>
         <li>
-          <a href="https://georally-doc.netlify.app/" activeClassName="active" className="app-navbar-link">Docs</a>
+          <a target="_blank" href="https://georally-doc.netlify.app/" activeClassName="active" className="app-navbar-link">Docs</a>
         </li>
         <li>
           <NavLink activeClassName="active" to="/status" className="app-navbar-link">Status</NavLink>
